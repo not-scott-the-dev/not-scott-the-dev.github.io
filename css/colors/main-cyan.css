@@ -1,0 +1,284 @@
+:root {
+    --custom: #53dbd0
+}
+
+.table-custom,
+.table-custom>td,
+.table-custom>th {
+    background-color: #b8e4d4
+}
+
+.table-hover .table-custom:hover {
+    background-color: #a6ddc9
+}
+
+.table-hover .table-custom:hover>td,
+.table-hover .table-custom:hover>th {
+    background-color: #a6ddc9
+}
+
+.btn-custom {
+    border-color: #53dbd0;
+    color: #fff
+}
+
+.btn-custom:hover {
+    background-color: #4ea5a1;
+    border-color:  rgb(22, 174, 185)d;
+    color: #fff
+}
+
+.btn-custom.focus,
+.btn-custom:focus {
+    box-shadow: 0 0 0 .2rem  rgb(22, 174, 185);
+}
+
+.btn-custom.disabled,
+.btn-custom:disabled {
+    background-color: #53dbd0;
+    border-color: #53dbd0;
+    color: #fff
+}
+
+.btn-custom:not(:disabled):not(.disabled).active,
+.btn-custom:not(:disabled):not(.disabled):active,
+.show>.btn-custom.dropdown-toggle {
+    background-color: rgb(22, 174, 185);
+    border-color: rgb(22, 174, 185);
+    color: #fff
+}
+
+.btn-custom:not(:disabled):not(.disabled).active:focus,
+.btn-custom:not(:disabled):not(.disabled):active:focus,
+.show>.btn-custom.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem  rgb(22, 174, 185);
+}
+
+.btn-outline-custom {
+    border-color: #53dbd0;
+    color: #53dbd0
+}
+
+.btn-outline-custom:hover {
+    background-color: #53dbd0;
+    border-color: #53dbd0;
+    color: #fff
+}
+
+.btn-outline-custom.focus,
+.btn-outline-custom:focus {
+    box-shadow: 0 0 0 .2rem  rgb(22, 174, 185)
+}
+
+.btn-outline-custom.disabled,
+.btn-outline-custom:disabled {
+    background-color: transparent;
+    color: #53dbd0
+}
+
+.btn-outline-custom:not(:disabled):not(.disabled).active,
+.btn-outline-custom:not(:disabled):not(.disabled):active,
+.show>.btn-outline-custom.dropdown-toggle {
+    background-color: #53dbd0;
+    border-color: #53dbd0;
+    color: #fff
+}
+
+.btn-outline-custom:not(:disabled):not(.disabled).active:focus,
+.btn-outline-custom:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-custom.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgb(22, 174, 185)
+}
+
+.badge-custom {
+    background-color: #53dbd0;
+    color: #fff
+}
+
+a.badge-custom:focus,
+a.badge-custom:hover {
+    background-color:  rgb(22, 174, 185);
+    color: #ffff
+}
+
+a.badge-custom.focus,
+a.badge-custom:focus {
+    box-shadow: 0 0 0 .2rem  rgb(22, 174, 185);
+    outline: 0
+}
+
+.alert-custom {
+    background-color: #ccece0;
+    border-color: #b8e4d4;
+    color:  rgb(66, 155, 161)
+}
+
+.alert-custom hr {
+    border-top-color: #a6ddc9
+}
+
+.alert-custom .alert-link {
+    color: #001f14
+}
+
+.list-group-item-custom {
+    background-color: #b8e4d4;
+    color:  rgb(22, 174, 185)
+}
+
+.list-group-item-custom.list-group-item-action:focus,
+.list-group-item-custom.list-group-item-action:hover {
+    background-color: #a6ddc9;
+    color:  rgb(22, 174, 185)
+}
+
+.list-group-item-custom.list-group-item-action.active {
+    background-color:  rgb(22, 174, 185);
+    border-color:  rgb(22, 174, 185);
+    color: #fff
+}
+
+.bg-custom {
+    background-color: #53dbd0 !important
+}
+
+a.bg-custom:focus,
+a.bg-custom:hover,
+button.bg-custom:focus,
+button.bg-custom:hover {
+    background-color:  rgb(22, 174, 185) !important
+}
+
+.border-custom {
+    border-color: #53dbd0 !important
+}
+
+.text-custom {
+    color: #53dbd0 !important
+}
+
+a.text-custom:focus,
+a.text-custom:hover {
+    color:  rgb(22, 174, 185) !important
+}
+
+::-moz-selection {
+    background-color: #53dbd0;
+    color: #fff
+}
+
+::selection {
+    background-color: #53dbd0;
+    color: #fff
+}
+
+a:not(.btn) {
+    color: #53dbd0
+}
+
+a:not(.btn):focus,
+a:not(.btn):hover {
+    color:  rgb(22, 174, 185)
+}
+
+.color-scheme {
+    color: #53dbd0
+}
+
+.background-scheme {
+    background-color: #53dbd0
+}
+
+.btn.button-scheme {
+    background-color: #43b3a9 !important;
+    border: 1px solid #53dbd0 !important
+}
+
+.btn.button-scheme:focus {
+    background-color:  rgb(22, 174, 185) !important;
+    border-color:  rgb(22, 174, 185) !important;
+    box-shadow: none !important
+}
+
+.btn.button-outline {
+    background-color: transparent !important;
+    border: 1px solid #53dbd0 !important;
+    color: #222 !important
+}
+
+.btn.button-outline:focus {
+    background-color: rgba(34, 34, 34, .05) !important;
+    border-color:  rgb(22, 174, 185) !important;
+    box-shadow: none !important
+}
+
+.lightbox-wrapper .lightbox-content .section-heading.page-heading>.animated-bar {
+    background-color: #53dbd0
+}
+
+#about .info-section .info-content .content-subtitle {
+    color: #53dbd0
+}
+
+#about .info-section .info-content .content-follow li a:focus,
+#about .info-section .info-content .content-follow li a:hover {
+    color: #53dbd0
+}
+
+#about .services-section .single-service:hover {
+    border-bottom-color: #53dbd0
+}
+
+#about .services-section .single-service .service-icon {
+    color: #53dbd0
+}
+
+#about .testimonials-section .single-review .review-icon {
+    color: #53dbd0
+}
+
+#about .pricing-section .single-plan .plan-icon {
+    color: #53dbd0
+}
+
+#resume .resume-section .resume-item {
+    border-left-color: #53dbd0
+}
+
+#resume .resume-section .resume-item .item-arrow:before {
+    background-color: #53dbd0
+}
+
+#resume .resume-section .resume-item .item-arrow:after {
+    border-left-color: #53dbd0
+}
+
+#resume .skills-section .single-skill .skill-progress .progress-bar {
+    background-color: #53dbd0
+}
+
+#portfolio .portfolio-section .filter-control>li.tab-active,
+#portfolio .portfolio-section .filter-control>li:hover {
+    color: rgb(22, 174, 185)
+}
+
+#portfolio .portfolio-section .filter-control>li.tab-active:before,
+#portfolio .portfolio-section .filter-control>li:hover:before {
+    background-color: rgb(22, 174, 185)
+}
+
+#portfolio .portfolio-section .portfolio-grid .portfolio-wrapper .item-content .content-more {
+    color: #53dbd0
+}
+
+#blog .blog-section .single-post .post-img .content-date {
+    background-color: #53dbd0
+}
+
+#contact .contact-section .contact-form .form-group .form-control:focus {
+    border-bottom: 1px solid  rgb(22, 174, 185)
+}
+
+#contact .contact-section .contact-info .list-info .info-icon i {
+    color: #53dbd0
+}
